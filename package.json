@@ -6,9 +6,12 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Sebastián Cristi",
+  "author": "Sebastiï¿½n Cristi",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
   }
 }

@@ -13,9 +13,9 @@ describe('Prueba la funcion para sumar', function() {
        expect(typeof sumar(1, 1)).toBe("number"); 
     });
 
-    // it("Deberia retornar un numero aunque se le pase un string", () => {//Prueba fallando!
-    //     expect(typeof sumar("1", "1")).toBe("number");
-    // });
+    it.skip("Deberia retornar un numero aunque se le pase un string", () => {//Prueba fallando!
+        expect(typeof sumar("1", "1")).toBe("number");
+    });
 
     test('Funciona correctamente con decimales', () => {
         expect(sumar(0.2, 0.1)).toBeCloseTo(0.3, 5);
