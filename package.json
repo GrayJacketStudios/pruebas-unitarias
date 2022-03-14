@@ -1,0 +1,14 @@
+{
+  "name": "pruebas-unitarias",
+  "version": "1.0.0",
+  "description": "Repositorio para aprender de pruebas unitarias",
+  "main": "math_functions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sebastián Cristi",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
